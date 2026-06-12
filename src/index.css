@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Space Grotesk", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", "Georgia", "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom Natural Tones design theme colors */
+  --color-natural-bg: #FDFBF7;
+  --color-natural-plum: #401F3E;
+  --color-natural-gold: #E6B325;
+  --color-natural-olive: #6B8E23;
+  --color-natural-cream: #FAF6EE;
+  --color-natural-sand: #F3ECE0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: #FDFBF7;
+  color: #401F3E;
+}
+
+/* Custom Scrollbar styled for Natural Tones look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FAF6EE;
+  border-radius: 9999px;
+  border: 2px solid #FDFBF7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F3ECE0;
+}
+
+/* Natural soft glassmorphic navigation */
+.glass-nav {
+  background: rgba(253, 251, 247, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

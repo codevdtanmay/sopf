@@ -1,0 +1,6 @@
+{
+  "name": "The School of Pansy Flowers",
+  "description": "The premium interactive website of The School of Pansy Flowers. Where Curiosity Blossoms Into Excellence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
